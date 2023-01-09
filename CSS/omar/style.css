@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 0.35s linear;
-}
+@import url(../root.css);
 
 
 
@@ -31,13 +26,12 @@
 }
 
 .img-plakat:hover {
-
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60vw;
-    height: 90vh;
+    width: calc(60vw * 1.2);
+    height: calc(90vh * 1.2);
     z-index: 2;
 }
 
@@ -45,15 +39,13 @@
 
 
 .player {
-    width: 640px;
-    background-color: var(--bg);
+    background: var(--color-bg-gardient-primary);
     display: grid;
     grid-template-columns: 48px 1fr 48px;
-    grid-gap: 16px;
+    grid-gap: 1rem;
     padding: 8px 24px;
     position: relative;
-    border-radius: 64px;
-    border: 1px solid white;
+    border-radius: 50px;
 
 }
 
@@ -63,7 +55,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-block: 16px;
+    /* padding-block: 16px;*/
+    color: var(--color-font-primary);
+
+
 }
 
 #playbtn {
@@ -84,6 +79,7 @@
     align-items: center;
     font-size: 21px;
     position: relative;
+    color: var(--color-font-primary);
 
 }
 
@@ -92,16 +88,16 @@
 }
 
 .bar {
-    --space: -4px;
-    background-color: #24242424;
+    --space: -3px;
+    background-color: #210236c4;
     overflow: hidden;
+    position: absolute;
     left: var(--space);
     right: var(--space);
     top: var(--space);
     bottom: var(--space);
-    position: absolute;
     border-radius: 64px;
-    z-index: -2;
+    z-index: -1;
 }
 
 #progress {
@@ -110,6 +106,8 @@
     background-color: white;
     transition: all 1s linear;
     height: 100%;
+
+
 }
 
 
