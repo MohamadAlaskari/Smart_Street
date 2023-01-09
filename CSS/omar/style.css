@@ -1,6 +1,8 @@
 @import url(../root.css);
 
-
+plakt-main {
+    overflow: visible;
+}
 
 
 
@@ -23,6 +25,8 @@
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     animation: shadow-pulse 1s infinite;
+    border-radius: 0.8rem;
+
 }
 
 .img-plakat:hover {
@@ -30,8 +34,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: calc(60vw * 1.2);
-    height: calc(90vh * 1.2);
+    width: 100%;
+    height: 100%;
     z-index: 2;
 }
 
