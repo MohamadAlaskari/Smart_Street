@@ -1,0 +1,141 @@
+/*Allgemmein File*/
+
+/* Sehr wichtig***
+
+Damit wir den code sauber lassen und unerwartete Fehlern vermeiden
+1. bitte erfasse dein Code in richtigen reihenfolge wie die entsprechende Website
+2. bitte erfassen Sie Ihre Name vor dein Code und ende
+ in einer Kommentar, wo Sie Anfangen Und wo sie Endet wie das 
+ 
+ Start VorName.Nachname
+ Ende VorName.Nachname
+ */
+
+
+
+@media only screen and (min-width:992px) {
+
+    /*Start Mohamad.Alaskari*/
+    /*home*/
+    .img-home {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        z-index: -999;
+
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+
+    .header .nav-menu .menu {
+        all: unset;
+        float: right;
+    }
+
+    .header .nav-menu ul li {
+
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    .header .nav-menu .menu a {
+        all: unset;
+        position: relative;
+    }
+
+    .active {
+        color: var(--color-font-primary);
+    }
+
+    .header .nav-menu .menu .nav-item a:before {
+        content: "";
+        width: 0%;
+        height: 3px;
+        background-color: var(--color-primary);
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        transition: width .5s ease;
+    }
+
+
+    .active:before {
+        content: "";
+        width: 50%;
+        height: 3px;
+        background-color: var(--color-primary);
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        transition: width .5s ease;
+    }
+
+    .header .nav-menu .menu a:hover {
+        background: none;
+    }
+
+    .header .nav-menu .menu a:hover:before {
+        width: 50%;
+    }
+
+
+    .header .nav-menu .menu a:active::before {
+        width: 50%;
+    }
+
+    /*End Mohamad.Alaskari*/
+
+
+
+}
+
+/*Style großer als 768*/
+@media only screen and (min-width:768px) {
+    .single-service {
+        margin: 0rem;
+    }
+}
+
+@media only screen and (min-width:576px) {
+
+
+
+    /*Start Mohamad.Alaskari*/
+
+    /*header-main-style*/
+    .header {
+        padding: 0 3rem;
+    }
+
+
+
+    /*home Content*/
+
+    .home-content {
+        padding: 3rem 3rem;
+    }
+
+    /*Ende Mohamad.Alaskari*/
+
+}
+
+@media only screen and (max-width:576px) {
+
+    /*Start Mohamad.Alaskari*/
+
+
+    .logo {
+        padding-left: 0;
+    }
+
+    .home-content {
+        padding: 3rem 0rem;
+    }
+
+    /*Ende Mohamad.Alaskari*/
+
+}

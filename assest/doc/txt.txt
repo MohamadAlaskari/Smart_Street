@@ -1,0 +1,25 @@
+***Start Mohamad Alaskari***
+
+- Project Struktur augfbauen :
+    1. Folder erstelen :assest, Style, Js und img
+    2. File in passenden folder erstellen: html, css, js und doco
+- html Struktur erstellen: (diffinition von html5 und basic Strukturvon durch Tagsname (html, head, body) )
+- benötiget meta tags und title hinzufügen
+- JS app-function erstelen und ausfüren (alle benötigte js funktionen sollen in app ausgefürt werden)
+- binden html file sowohl mit css als auch mit js file
+- mehrere css file erstellen wo die basic und allgemeine classen definiert werden.
+- wichtigste medien mir passenden preak pointer zum responsiv definiert.
+- basic struktur für alle section von die seite erstellt und mit css formatiert wie wraper und background und responsiv
+- home seite fertig gesteltet wie navbar und main content und responsiv.
+
+***Ende Mohamad Alaskari***
+
+
+
+***Start Omar Ziyada***
+
+***Ende Omar Ziyada***
+
+*** Start Qusai***
+
+***Ende Qusai***

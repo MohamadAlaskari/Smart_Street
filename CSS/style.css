@@ -1,0 +1,24 @@
+/*Algemmein File*/
+
+
+/*Start Mohamad Alaskari*/
+@import url(root.css);
+@import url(welcome.css);
+@import url(side-nav.css);
+@import url(header.css);
+@import url(style-home.css);
+@import url(scrollbutton.css);
+@import url(about.css);
+@import url(vorteile.css);
+@import url(team.css);
+@import url(footer.css);
+
+
+/*Ende Mohamad Alaskari*/
+
+
+
+
+
+/*Bitte lass responsive File immer am ende*/
+@import url(responsive.css);

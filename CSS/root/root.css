@@ -1,0 +1,56 @@
+title {
+    color: var();
+    font-size: var();
+}
+
+.ueberschrift1 {
+    color: var();
+    font-size: var();
+}
+
+.ueberschrift2 {
+    color: var();
+    font-size: var();
+}
+
+.subtext {
+    color: var();
+    font-size: var();
+}
+
+.text {
+    color: var();
+    font-size: var();
+}
+.btn{
+
+}
+.primary-btn{
+
+}
+
+.secondary-btn{
+
+}
+.primary-btn:hover{
+
+}
+
+.secondary-btn:hover{
+
+}
+
+
+/*icons*/
+i{
+    color: var();
+}
+i:hover{
+    color: var();
+    font-size: var();
+}
+
+/*background*/
+.bg-animation{
+
+}

@@ -1,0 +1,42 @@
+/* HEADER */
+
+
+
+.header-left {
+    position: fixed;
+    top: 2vh;
+    left: 0;
+    z-index: 50;
+}
+
+.header-right {
+    position: fixed;
+    top: 2vh;
+    right: 0;
+    z-index: 50;
+
+}
+
+.header-row {
+    width: 5vw;
+
+    display: inline-block;
+}
+
+.header-row-center {
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-row-title {
+    margin: 4vh 0 0 0;
+    writing-mode: vertical-rl;
+    font-size: 0.9rem;
+    color: var(--color-font-secondary);
+    text-orientation: mixed;
+    letter-spacing: .5em;
+    font-weight: 300;
+    text-transform: uppercase;
+}

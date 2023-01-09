@@ -1,0 +1,108 @@
+/*Mohamad Alaskari File*/
+.home-img {
+	width: 110px;
+	height: 110px;
+	background-image: url(../img/Group.png);
+	background-repeat: no-repeat;
+	z-index: 2;
+
+	position: absolute;
+	top: 110vh;
+	right: 5vw;
+	animation: transitionn 2s linear infinite;
+
+}
+
+.home-img4 {
+	opacity: 0.5;
+	width: 30vw;
+	height: 200px;
+	background-image: url(../img/Group.png);
+	transform: rotate(-35deg);
+	z-index: 2;
+	object-fit: fill;
+	position: absolute;
+	top: 40vh;
+	right: 10vw;
+
+
+	transition: all 1s ease;
+	animation: transitionn 10s linear infinite;
+
+}
+
+.home-img2 {
+	opacity: 0.5;
+	width: 160px;
+	height: 160px;
+	background-image: url(../img/Group\ \(1\).png);
+	background-repeat: no-repeat;
+	z-index: 0;
+	object-fit: fill;
+	position: absolute;
+	top: 25vh;
+	right: 10.6vw;
+	animation: transitionn 2s linear infinite;
+}
+
+.home-img3 {
+	opacity: 0.5;
+	width: 160px;
+	height: 160px;
+	background-image: url(../img/Group\ \(1\).png);
+	background-repeat: no-repeat;
+	z-index: 0;
+	object-fit: fill;
+	position: absolute;
+	top: 60vh;
+	right: 30vw;
+	transition: all 1s ease;
+	animation: transitionn 2s linear infinite;
+}
+
+/*home Content*/
+.home-content {
+	margin-top: 22vh;
+	overflow: hidden;
+
+}
+
+.btn-smart {
+	color: var(--color-font-primary);
+	border-color: var(--color-secondary);
+	border-radius: 5px;
+}
+
+.btn-smart-secondary {
+	color: var(--color-font-secondary);
+
+}
+
+.btn-smart-primary {
+	background-color: var(--color-secondary);
+	margin-right: 10px;
+}
+
+.btn-smart-primary:hover,
+.btn-smart-secondary:hover {
+	transition: all 0.4s ease-in-out;
+	background-color: var(--color-primary);
+	color: var(--color-font-primary);
+}
+
+
+@keyframes transitionn {
+	0% {
+
+
+		transform: rotate(0deg) translateY(0px);
+
+
+	}
+
+	100% {
+		transform: rotate(360deg) translateY(0px);
+	}
+
+
+}
