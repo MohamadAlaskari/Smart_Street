@@ -40,8 +40,9 @@ nav {
     overflow: hidden;
 }
 
-
-
+.header ul li {
+    cursor: pointer;
+}
 
 
 .header .nav-menu .menu a {
