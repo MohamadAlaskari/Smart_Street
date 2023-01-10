@@ -1,5 +1,5 @@
 footer {
-    padding: 86px 0;
+    padding-bottom: 10px;
 }
 
 .single-content {
@@ -49,6 +49,12 @@ footer {
 #basic-addon2 {
     background: #fe1e4f;
     color: #fff;
+}
+
+.socials-footer {
+    justify-content: flex-start;
+    padding-left: 0;
+
 }
 
 .socials i {

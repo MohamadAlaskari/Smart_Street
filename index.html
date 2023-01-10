@@ -11,6 +11,7 @@
     <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
     <!--icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -20,7 +21,7 @@
 </head>
 
 <body>
-    <!--Start Mohamad Alaskari-->
+    <!--Start Mohamad Alaskari
 
     <!--begrüßung
     <div class="welcome-logo ">
@@ -83,7 +84,7 @@
             </defs>
         </svg>
     </div>
- -->
+    -->
     <!--Top scroll button-->
     <a id="scrollbtn" class="glass"></a>
 
@@ -135,7 +136,7 @@
                             <li class="nav-item"><a href="#team">Team</a></li>
                             <li class="nav-item"><a href="#services">Services</a></li>
                             <li class="nav-item"><a href="#contact">Contact</a></li>
-                        <!--    <input type="checkbox" id="switch" />
+                            <!--    <input type="checkbox" id="switch" />
                             <label for="switch">Toggle</label>
                             -->
                         </ul>
@@ -381,6 +382,9 @@
                                     <a href="https://www.youtube.com/@alaskaricode2564" class="link-icon">
                                         <i class="fa fa-youtube"></i>
                                     </a>
+                                    <a href="https://www.youtube.com/@alaskaricode2564" class="link-icon">
+                                        <i class="fa fa-github"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -403,9 +407,9 @@
                             <p>
                                 <i class="fa fa-map-marker"></i> buntentorsteinweg 152, 28201 Bremen<br />
                                 <i class="fa fa-envelope"></i>
-                                <a href="mailto:m_alaskari96@hotmail.com">m_alaskari96@hotmail.com</a><br />
+                                <a href="mailto:m_alaskari96@hotmail.com" class="text-info">m_alaskari96@hotmail.com</a><br />
                                 <i class="fa fa-phone"></i>
-                                <a href="tel:+3454">+49 176 848 140 22</a>
+                                <a href="tel:+3454" class="text-info">+49 176 848 140 22</a>
                             </p>
                         </address>
                     </div>
@@ -438,7 +442,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-box">
                         <h2>Abonieren Sie Uns</h2>
-                        <div class="socials">
+                        <div class="socials socials-footer ">
                             <a href="https://www.linkedin.com/in/mohamad-alaskari-17238a123/" class="link-icon"
                                 target="_blank">
                                 <i class="fa fa-linkedin"></i>
@@ -450,15 +454,19 @@
                             <a href="https://www.instagram.com/alaskari.code/" target="_blank">
                                 <i class="fa fa-instagram" class="link-icon"></i>
                             </a>
-                            <a href="https://www.pinterest.de/AlaskariCode/" class="link-icon" target="_blank">
+                            <a href="https://www.pinterest.de/AlaskariCode/" class="link-icon "
+                                target="_blank">
                                 <i class="fa fa-pinterest"></i>
                             </a>
                         </div>
-                    </div>
-                    <div class="text-light">
-                        Coded by <a href="mailto:m_alaskari96@hotmail.com" target="_blank">Mohamad Alaskari </a>
+                        <div class=" coder-zeile pt-2">
+                            <span class="text-light ">Coded by </span> <a class="text-info"
+                                href="mailto:m_alaskari96@hotmail.com" target="_blank">
+                                Mohamad Alaskari </a>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </footer>
@@ -474,6 +482,21 @@
                 fill="#111920" />
         </svg>
     </div>
+
+
+    <!--parallax-->
+    <div id="scene" class="scene">
+        <div data-depth="0.2">
+            <div id="first-layer-stars" class="layer-stars"></div>
+        </div>
+        <div data-depth="0.6">
+            <div id="second-layer-stars" class="layer-stars"></div>
+        </div>
+        <div data-depth="0.8">
+            <div id="third-layer-stars" class="layer-stars"></div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
     <!--scripte-->
     <!--Start Mohamad Alaskari-->
     <script src="JS/app.js"></script>
