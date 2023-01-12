@@ -62,3 +62,11 @@ downloadAudioBtn.addEventListener('click', () => {
 })
 
 
+
+const imgPlakat = document.querySelector('.img-plakat');
+
+imgPlakat.addEventListener('click', function() {
+  
+  this.classList.toggle('transition');
+});
+

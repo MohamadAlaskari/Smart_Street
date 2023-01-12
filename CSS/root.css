@@ -38,7 +38,7 @@
                         #38065b 100%);
 
         /*color*/
-        --color-primary: hsl(311, 84%, 41%);
+        --color-primary: rgba(188, 16, 156, 0.99);
         --color-secondary: #dc3daa;
         /*font*/
         --color-font-primary: rgb(255, 255, 255);
@@ -79,8 +79,12 @@ body {
         /*Ende Mohamad.Alaskari*/
 }
 
+/*omar*/
+.main .quellen,
+.contact h3 {
+        color: var(--color-font-primary);
 
-
+}
 
 
 /*background main*/

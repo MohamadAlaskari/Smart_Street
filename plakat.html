@@ -7,185 +7,353 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Smart Street , intelligente Straßen, " />
     <link rel="shortcut icon" href="img/favicon5.png" type="image/x-icon" />
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/omar/style.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!--Style-->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/omar/style.css" />
+
+
     <title>Smart Street</title>
 </head>
 
-<body class="bg-animation">
-    <div class="flex-col-center ">
-        <div class=" container wraper">
-            <section id="home" class="main glass plakt-main">
-                <header class="container header">
-                    <a class="logo fade-in" href="index.html"> Smart Street</a>
-                    <input type="checkbox" id="menu-btn" class="menu-btn" />
-                    <label class="menu-icon" for="menu-btn">
-                        <span class="nav-icon"></span>
-                    </label>
-                    <nav class="nav-menu">
-                        <ul class="menu glass" id="menu">
-                            <li class="nav-item">
-                                <a href="#home" class="active">Home</a>
-                            </li>
-                            <li class="nav-item"><a href="#about">About</a></li>
-                            <li class="nav-item"><a href="#team">Team</a></li>
-                            <li class="nav-item"><a href="#services">Services</a></li>
-                            <li class="nav-item"><a href="#contact">Contact</a></li>
-                            <!--    <input type="checkbox" id="switch" />
+<body>
+
+
+    <!--side Text left-->
+    <header id="left-side ">
+        <div class="header-left">
+            <div class="header-row">
+                <div class="header-row-center">
+                    <h3 class="header-row-title">
+                        Smart Street sind Zukunft der Mobilität!
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--side Text right-->
+    <header id="right-side">
+        <div class="header-right">
+            <div class="header-row">
+                <div class="header-row-center">
+                    <h3 class="header-row-title">
+                        Smart Street sind Zukunft der Mobilität!
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="flex-col-center   ">
+
+        <!-- Navbar section  -->
+        <div class=" container wraper ">
+            <header class="container header">
+                <a class="logo fade-in" href="index.html"> Smart Street</a>
+                <input type="checkbox" id="menu-btn" class="menu-btn" />
+                <label class="menu-icon" for="menu-btn">
+                    <span class="nav-icon"></span>
+                </label>
+                <nav class="nav-menu">
+                    <ul class="menu glass" id="menu">
+                        <li class="nav-item">
+                            <a href="#home" class="active">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a href="#team">Team</a></li>
+                        <li class="nav-item"><a href="#services">Services</a></li>
+                        <li class="nav-item"><a href="#contact">Contact</a></li>
+                        <!--    <input type="checkbox" id="switch" />
                         <label for="switch">Toggle</label>
                         -->
-                        </ul>
-                    </nav>
-                </header>
+                    </ul>
+                </nav>
+            </header>
+            <!--home Plakat-->
+            <section class="home-section">
+                <div class="plakat-content">
+                    <div class="container ">
+                        <div id="plakat_con" class="row media ">
 
-                <section class="home-section">
-                    <div class="plakat-content">
-                        <div class="container ">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12">
-                                    <div class=" img-box">
-                                        <img src="img/Plakat3.jpg" class="img-plakat" alt="Plakat" />
+                            <div class=" img-box">
+                                <img src="img/Plakat3.jpg" class="img-plakat" alt="Plakat" />
 
+                            </div>
+
+                        </div>
+
+                        <div id="player" class="row media">
+
+                            <!--audio-->
+                            <div class="audio-content">
+                                <audio id="player" src="audio/Radiospot.mp3"></audio>
+                                <div class="player">
+                                    <div class="control">
+                                        <i class="fas fa-play" id="playbtn"></i>
                                     </div>
-                                    <div>
-                                        <a href="img/Plakat3.jpg" class="btn download-plakat mt-3" download>
-                                            <div class="completed">
-                                                <i class="fa-solid fa-circle-check"></i>
-                                                <span>completed</span>
-                                            </div>
-                                            <div class="download">
-                                                <i class="fa-solid fa-download"></i>
-                                                <span>Download Plakat </span>
-                                            </div>
-                                        </a>
+                                    <div class="info">
+                                        Smart Street
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <div class="audio-content">
-                                        <audio id="player" src="audio/Radiospot.mp3"></audio>
-                                        <div class="player">
-
-                                            <div class="control">
-                                                <i class="fas fa-play" id="playbtn"></i>
-                                            </div>
-
-                                            <div class="info">
-                                                Smart Street
-                                            </div>
-
-                                            <div id="current">0:00</div>
-
-                                            <div class="bar">
-                                                <div id="progress"></div>
-                                            </div>
-                                        </div>
+                                    <div id="current">0:00</div>
+                                    <div class="bar">
+                                        <div id="progress"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
+                        <div id="btns" class="row media">
+                            <div class="col col-6">
+                                <!--plakat btn-->
+                                <a href="img/Plakat3.jpg" class="btn download-plakat mt-3" download>
+                                    <div class="completed">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>completed</span>
+                                    </div>
+                                    <div class="download">
+                                        <i class="fa-solid fa-download"></i>
+                                        <span>Download Plakat </span>
+                                    </div>
+                                </a>
+                            </div>
+
+
+
+
+                            <!--audio btn-->
+                            <div class="col col-6">
+                                <a href="audio/Radiospot.mp3" class="btn download-audio mt-3" download>
+                                    <div class="completed">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <span>completed</span>
+                                    </div>
+                                    <div class="download">
+                                        <i class="fa-solid fa-download"></i>
+                                        <span>Download Audio </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
-                </section>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- Quellen section  -->
+        <div class="container wraper">
+            <section id="quelle" class="main ">
+                <div class="container quellen-content ">
+
+                    <h1 class="ueberschrift1">Projekt Quellen</h1>
+                    <p class="sub-text">
+                        Auf dieser teil der Webseite finden Sie die Quellenangaben für alle
+                        Materialien, welche im Verlauf unserer Kampagne verwendet worden sind.
+                    </p>
+
+                    <div class="quellen row">
+
+                        <div class="col-md-4 col-sm-12">
+                            <h3>Webseite Quellen</h3>
+                            <div class="flex-col-center">
+                                <div class="box">
+                                    <i class="fas fa-book"></i><a href="https://fontawesome.com/" target="_blank"
+                                        id="fontawesome">Fontawesome</a>
+
+                                </div>
+                                <div class="box">
+                                    <i class="fas fa-book"></i><a href="https://getbootstrap.com/" target="_blank"
+                                        id="bootstrap">Bootstrap</a>
+
+                                </div>
+                                <div class="box">
+                                    <i class="fas fa-book"></i><a
+                                        href="https://stechwebapp.blogspot.com/2021/09/how-to-create-download-button.html"
+                                        target="_blank" id="stechwebapp">Stechwebapp</a>
+
+                                </div>
+                                <div class="box">
+                                    <i class="fas fa-book"></i><a href="https://www.youtube.com/@AdeyCoder"
+                                        target="_blank">Adey Coder</a>
+
+                                </div>
+                                <div class="box">
+                                    <i class="fas fa-book"></i><a href="https://www.youtube.com/@OnlineTutorialsYT"
+                                        target="_blank">OnlineTutorialsYT</a>
+                                </div>
+                                <div class="box">
+
+                                    <p>[Abrufbar am 04.01.2023]</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <h3>Plakat Quellen</h3>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-book"></i><a href="https://www.freepik.com/"
+                                        target="_blank">Freepik</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-book"></i><a href="https://www.flaticon.com/"
+                                        target="_blank">Flaticon</a>
+                                </li>
+                                <li class="date">[Abrufbar am 03.12.2022 ]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-12 ">
+                            <h3>Audio Quellen</h3>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-book"></i><a href="https://stock.adobe.com/de/"
+                                        target="_blank">Adobe
+                                        Stock</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-book"></i><a href="https://mixkit.co/" target="_blank">Mixkit</a>
+                                </li>
+                                <li class="date">[Abrufbar am 28.12.2022]</li>
+                            </ul>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Kontakt section  -->
+        <div class="container wraper">
+            <section id="quelle" class="main contact">
+                <div class="container kontakt">
+                    <h1>Kontaktieren Sie uns unter:</h1>
+                    <div class="contact-info">
+                        <div>
+                            <h3><i class="fas fa-home"></i> Addresse</h2>
+                                <p>Flughafenallee 10</p>
+                                <p>28199 Bremen</p>
+                        </div>
+                        <div>
+                            <h3><i class="fas fa-phone"></i> Telefon</h2>
+                                <p>0421 000000</p>
+                        </div>
+                        <div>
+                            <h3><i class="fas fa-envelope"></i> E-mail</h2>
+                                <p>info@smartstreet.com</p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>
 
-    <div class="row">
+    <!--footer-->
+    <footer class="bg-main ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="single-box">
+                        <h1>Smart Street</h1>
+                        <p>Smarte Straßen sind die Zukunft der Mobilität!</p>
 
+                        <address>
+                            <p>
+                                <i class="fa fa-map-marker"></i> buntentorsteinweg 152, 28201 Bremen<br />
+                                <i class="fa fa-envelope"></i>
+                                <a href="mailto:m_alaskari96@hotmail.com"
+                                    class="text-info">m_alaskari96@hotmail.com</a><br />
+                                <i class="fa fa-phone"></i>
+                                <a href="tel:+3454" class="text-info">+49 176 848 140 22</a>
+                            </p>
+                        </address>
+                        <p class="copyright"> &copy; 2023 Smart Street Alle Rechte vorbehalten.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="single-box">
+                        <h2>Navigation</h2>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="single-box">
+                        <h2>Quellen</h2>
+                        <ul>
+                            <li><a href="https://fontawesome.com/" target="_blank">Fontawesome</a></li>
+                            <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+                            <li><a href="https://stechwebapp.blogspot.com/2021/09/how-to-create-download-button.html"
+                                    target="_blank">Stechwebapp</a></li>
+                            <li><a href="https://www.youtube.com/@AdeyCoder" target="_blank">Adey Coder</a></li>
+                            <li><a href="https://www.youtube.com/@OnlineTutorialsYT"
+                                    target="_blank">OnlineTutorialsYT</a></li>
 
-        <a href="audio/Radiospot.mp3" class="btn download-audio mt-3" download>
-            <div class="completed">
-                <i class="fa-solid fa-circle-check"></i>
-                <span>completed</span>
-            </div>
-            <div class="download">
-                <i class="fa-solid fa-download"></i>
-                <span>Download Audio </span>
-            </div>
-        </a>
-    </div>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2>Abonieren Sie Uns</h2>
+                        <div class="socials socials-footer ">
+                            <a href="https://www.linkedin.com/in/mohamad-alaskari-17238a123/" class="link-icon"
+                                target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.xing.com/profile/Mohamad_Alaskari/cv" class="link-icon"
+                                target="_blank">
+                                <i class="fa fa-xing"></i>
+                            </a>
+                            <a href="https://www.instagram.com/alaskari.code/" target="_blank">
+                                <i class="fa fa-instagram" class="link-icon"></i>
+                            </a>
+                            <a href="https://www.pinterest.de/AlaskariCode/" class="link-icon " target="_blank">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </div>
+                        <div class=" coder-zeile pt-2">
+                            <span class="text-light ">Coded by </span> <a class="text-info"
+                                href="mailto:m_alaskari96@hotmail.com" target="_blank">
+                                Mohamad Alaskari </a>
+                        </div>
+                    </div>
+                </div>
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="container quellen">
-        <h1>Projekt Quellen</h1>
-        <p>
-            Auf dieser teil der Webseite finden Sie die Quellenangaben für alle
-            Materialien, welche im Verlauf unserer Kampagne verwendet worden sind.
-        </p>
-        <h2>Webseite Quellen</h2>
-        <ul>
-            <li>
-                <i class="fas fa-book"></i><a href="https://fontawesome.com/" target="_blank">Fontawesome</a>
-            </li>
-            <li>
-                <i class="fas fa-book"></i><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
-            </li>
-            <li class="date">[Abrufbar am 04.01.2023]</li>
-        </ul>
-        <h2>Plakat Quellen</h2>
-        <ul>
-            <li>
-                <i class="fas fa-book"></i><a href="https://www.freepik.com/" target="_blank">Freepik</a>
-            </li>
-            <li>
-                <i class="fas fa-book"></i><a href="https://www.flaticon.com/" target="_blank">Flaticon</a>
-            </li>
-            <li class="date">[Abrufbar am 03.12.2022 ]</li>
-        </ul>
-        <h2>Audio Quellen</h2>
-        <ul>
-            <li>
-                <i class="fas fa-book"></i><a href="https://stock.adobe.com/de/" target="_blank">Adobe Stock</a>
-            </li>
-            <li>
-                <i class="fas fa-book"></i><a href="https://mixkit.co/" target="_blank">Mixkit</a>
-            </li>
-            <li class="date">[Abrufbar am 28.12.2022]</li>
-        </ul>
-    </div>
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="container">
-        <h1>Kontaktieren Sie uns unter:</h1>
-        <div class="contact-info">
-            <div>
-                <h2><i class="fas fa-home"></i> Addresse</h2>
-                <p>Flughafenallee 10</p>
-                <p>28199 Bremen</p>
-            </div>
-            <div>
-                <h2><i class="fas fa-phone"></i> Telefon</h2>
-                <p>0421 000000</p>
-            </div>
-            <div>
-                <h2><i class="fas fa-envelope"></i> E-mail</h2>
-                <p>info@smartstreet.com</p>
             </div>
         </div>
-    </div>
-    <br />
-    <br />
-    <br />
+    </footer>
+
+
+
 
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script src="JS/player.js"></script>
 </body>
+
+
 
 </html>

@@ -1,8 +1,21 @@
 @import url(../root.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.bg-main {
+    background-color: #212529;
+}
+
+body {
+    background-color: #212529;
+}
+
 
 plakt-main {
     overflow: visible;
 }
+
+
 
 
 
@@ -12,10 +25,16 @@ plakt-main {
 }
 
 .img-box {
+
     height: 371px;
     width: 525px;
+}
 
-
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 
@@ -24,26 +43,38 @@ plakt-main {
     width: 100%;
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    transition: box-shadow 0.3s ease-in, width 1.5s ease, height 1.5s ease, transform 0s ease;
+
     animation: shadow-pulse 1s infinite;
     border-radius: 0.8rem;
 
 }
 
-.img-plakat:hover {
-    position: fixed;
+@keyframes shadow-pulse {
+
+    /* Increase the size of the drop shadow on hover */
+    50% {
+        box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8);
+    }
+}
+
+.img-plakat.transition {
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
+    width: 60vw;
+    height: 90vh;
     z-index: 2;
 }
 
 /* audio*/
-
+.audio-content {
+    padding: 0 10vw;
+}
 
 .player {
-    background: var(--color-bg-gardient-primary);
+    background: #212529;
     display: grid;
     grid-template-columns: 48px 1fr 48px;
     grid-gap: 1rem;
@@ -93,7 +124,7 @@ plakt-main {
 
 .bar {
     --space: -3px;
-    background-color: #210236c4;
+    background-color: #43474b;
     overflow: hidden;
     position: absolute;
     left: var(--space);
@@ -132,7 +163,7 @@ plakt-main {
     position: relative;
     width: 200px;
     height: 42px;
-    background: #ee0fe7;
+    background: var(--color-secondary);
     color: #fff;
     font-size: 15px;
     font-weight: 700;
@@ -141,6 +172,7 @@ plakt-main {
     text-decoration: none;
     transition: 0.8s;
     transition-delay: 0.5s;
+
     overflow: hidden;
 }
 
@@ -169,7 +201,7 @@ plakt-main {
     left: 50%;
     transform: translate(-50%, -60px);
     white-space: nowrap;
-    color: #222;
+    color: #212529;
 }
 
 .btn.active .completed {
@@ -191,7 +223,7 @@ plakt-main {
     left: 0;
     width: 0;
     height: 100%;
-    background: #5c5cff;
+    background: white;
     animation: before_active 10s linear forwards;
     animation-delay: 1.5s;
 }
@@ -201,8 +233,8 @@ plakt-main {
     position: absolute;
     top: 50%;
     left: 50%;
-
-    color: #222;
+    font-family: "Font Awesome 5 Free";
+    color: #212529;
     transform: translate(-50%, -50%) scale(0);
     transition: 0.3s;
     animation: check_scale 2s linear forwards;
@@ -298,6 +330,7 @@ plakt-main {
 
 /* Kontakt */
 
+
 .contact-info {
 
     display: grid;
@@ -328,12 +361,23 @@ plakt-main {
 /*Quellen*/
 
 
+
 .quellen h1 {
     font-size: 32px;
     text-align: center;
     margin: 16px 0;
     animation: fadein 4s;
 }
+
+
+
+.quellen .col-md-4,
+.col-sm-12 {
+    text-align: center;
+    margin: 10% 0px;
+}
+
+
 
 @keyframes fadein {
     from {
@@ -345,21 +389,23 @@ plakt-main {
     }
 }
 
-.quellen h2 {
-    text-align: left;
-    font-size: 24px;
-    margin: 8px 0;
-}
+
 
 .quellen ul {
     list-style: none;
-    margin: 0;
+    margin: 5px 0;
     padding: 0;
 }
 
 .quellen li {
+
     margin: 8px 0;
-    margin-left: 30px;
+
+}
+
+.quellen i {
+    color: #fff;
+    margin: 0 10px;
 }
 
 .quellen a {
@@ -372,5 +418,5 @@ plakt-main {
 }
 
 .quellen .date {
-    color: rgb(51, 49, 49);
+    color: rgb(167, 159, 159);
 }
