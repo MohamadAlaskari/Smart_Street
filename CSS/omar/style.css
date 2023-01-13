@@ -233,9 +233,9 @@ plakt-main {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%) scale(0);
     font-family: "Font Awesome 5 Free";
     color: #212529;
-    transform: translate(-50%, -50%) scale(0);
     transition: 0.3s;
     animation: check_scale 2s linear forwards;
     animation-delay: 8.5s;

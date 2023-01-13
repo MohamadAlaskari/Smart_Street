@@ -1,72 +1,128 @@
-:root{
+/*coded by Mohamad Alaskari*/
+
+:root {
+    /*font family*/
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    /*font-size */
+    --size-font-special: 50px;
+    --size-font-title: 40px;
+    --size-font-ueberschrift1: 35px;
+    --size-font-ueberschrift2: 25px;
+    --size-font-list: 20px;
+    --size-font-Standart: 16px;
+
+    /*font-weight:*/
+    --font-weight-primary: 700;
+    --font--weight-secondary: 300;
+    /**/
+    --line-height: 1.5px;
+    --letter-spacing: 1px;
+
+
+
     /*basic color schrift*/
-    --color-special:;
-    --color-font-primary:;
-    --color-font-secondary:;
+    --color-special: hsl(319, 69%, 55%);
+    --color-special-1: rgb(208, 22, 149);
+
+    --color-font-primary: #fff;
+    --color-font-secondary: #ccccccdb;
 
     /*bg-color */
-    --color-1:;
-    --color-2:;
-    --color-3:;
-    --color-4:;
+    --color-1: #733FC8;
+    --color-2: #49556B;
+    --color-3: #fff;
+    --color-4: #542158;
 
-    /* */
+    /*bg-gradient*/
+
 }
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5vh;
+}
+
+*,
+a,
+ul,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+
 
 
 title {
-    color: var();
-    font-size: var();
+    color: var(--color-font-primary);
+    font-size: var(--size-font-title);
+}
+
+#special {
+    color: var(--color-special);
+}
+
+.special {
+    font-size: var(--size-font-special);
 }
 
 .ueberschrift1 {
-    color: var();
-    font-size: var();
+    color: var(--color-font-primary);
+    font-size: var(--size-font-ueberschrift1);
 }
 
 .ueberschrift2 {
+    color: var(--color-font-primary);
+    font-size: var(--size-font-ueberschrift2);
+}
+
+.ueberschrift3 {
     color: var();
     font-size: var();
 }
 
 .subtext {
-    color: var();
-    font-size: var();
+    color: var(--color-font-secondary);
+    font-size: var(--size-font-Standart);
 }
 
-.text {
-    color: var();
-    font-size: var();
-}
-.btn{
-
-}
-.primary-btn{
-
+.standart-text {
+    color: var(--color-font-primary);
+    font-size: var(--size-font-Standart);
 }
 
-.secondary-btn{
+.btn {}
 
-}
-.primary-btn:hover{
+.primary-btn {}
 
-}
+.secondary-btn {}
 
-.secondary-btn:hover{
+.primary-btn:hover {}
 
-}
+.secondary-btn:hover {}
 
 
 /*icons*/
-i{
+i {
     color: var();
 }
-i:hover{
+
+i:hover {
     color: var();
     font-size: var();
 }
 
-    /*background*/
-    .bg-animation{
-
-    }
+/*background*/
+.bg-animation {}

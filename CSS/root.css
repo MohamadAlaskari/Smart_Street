@@ -39,7 +39,7 @@
 
         /*color*/
         --color-primary: rgba(188, 16, 156, 0.99);
-        --color-secondary: #dc3daa;
+        --color-secondary: hsl(319, 69%, 55%);
         /*font*/
         --color-font-primary: rgb(255, 255, 255);
         --color-font-secondary: #ccccccdb;
@@ -74,7 +74,6 @@ ul {
 body {
         /*start Mohamad.Alaskari*/
         line-height: 1.5;
-        scroll-padding-top: 5vh;
         letter-spacing: 1px;
         /*Ende Mohamad.Alaskari*/
 }

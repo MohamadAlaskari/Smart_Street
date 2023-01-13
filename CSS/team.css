@@ -21,11 +21,11 @@
 }
 
 .single-service {
-    background: rgba(255, 255, 255, 0);
-    height: 95%;
+    background: rgba(216, 112, 147, 0);/*du muss hier ein variable diffinieren*/
+    flex-wrap: nowrap;
+    height: 100%;
     border-radius: 0.8rem;
-    padding: 30px;
-    margin: 1rem;
+    padding: 1rem;
     transition: all .5s ease;
 }
 

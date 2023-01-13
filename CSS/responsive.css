@@ -95,9 +95,7 @@ Damit wir den code sauber lassen und unerwartete Fehlern vermeiden
 
 /*Style großer als 768*/
 @media only screen and (min-width:768px) {
-    .single-service {
-        margin: 0rem;
-    }
+  
 }
 
 @media only screen and (min-width:576px) {
