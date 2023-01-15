@@ -2,9 +2,15 @@
     margin: 1rem 0;
 }
 
+.grid-team {
+    margin: 2rem;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 .single-service {
-    background: rgba(27, 2, 37, 0);
+    background: #33353d;
     /*du muss hier ein variable diffinieren*/
     flex-wrap: nowrap;
     height: 100%;
@@ -25,3 +31,11 @@
     object-fit: contain;
 }
 
+
+@media only screen and (max-width: 1000px) {
+    .grid-team {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }
+}

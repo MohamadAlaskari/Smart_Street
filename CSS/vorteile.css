@@ -90,7 +90,6 @@
     .grid {
         display: flex;
         flex-direction: column;
-        transform: scale(1);
         margin: 2rem;
 
     }
