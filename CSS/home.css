@@ -66,6 +66,11 @@
 	overflow: hidden;
 
 }
+.btns-group{
+
+	position: relative;
+		z-index: 999;
+}
 
 
 .btn-smart {
