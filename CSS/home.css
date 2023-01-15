@@ -67,6 +67,7 @@
 
 }
 
+
 .btn-smart {
 	color: var(--color-font-primary);
 	border-color: var(--color-secondary);
@@ -93,16 +94,10 @@
 
 @keyframes transitionn {
 	0% {
-
-
 		transform: rotate(0deg) translateY(0px);
-
-
 	}
 
 	100% {
 		transform: rotate(360deg) translateY(0px);
 	}
-
-
 }

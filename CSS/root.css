@@ -96,7 +96,6 @@ body {
 
 .flex-row-center {
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
 }
@@ -137,12 +136,64 @@ body {
         overflow: hidden;
 }
 
-.main h1 {
+
+p {
+        color: rgb(255, 255, 255);
+}
+
+.title {
         color: var(--color-font-primary);
 }
 
-.main p {
+/*ueberschriften*/
+.special {
+        color: var(--color-primary);
+}
+
+.ueberschrift1 {
+        color: var(--color-font-primary);
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+}
+h2 {
+        font-size: 25px;
+        color: var(--color-font-primary);
+    }
+
+
+/*sub-text*/
+
+.sub-text {
+
+        margin: 0 auto 1rem;
         color: var(--color-font-secondary);
+}
+
+.sub-text-center {
+        text-align: center;
+        width: 60%;
+
+}
+
+.sub-text.sub-text-left {
+        width: 100%;
+        text-align: left;
+}
+
+/*socials*/
+
+.socials i {
+        font-size: 18px;
+        color: var(--color-font-secondary);
+        margin: 0 0.7rem;
+        transition: all 0.1s ease;
+}
+
+.socials i:hover {
+        color: #c011a0;
+        scale: 1.2;
+
 }
 
 /*underline*/

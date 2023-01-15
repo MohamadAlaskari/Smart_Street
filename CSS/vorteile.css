@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
 
-
 .outerdiv {
-    width: 100%;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .grid {
-    transform: scale(0.9);
-    margin: 1rem;
+    margin: 2rem;
     display: grid;
     grid-gap: 1.5rem;
     grid-template-rows: repeat(3, 1fr);
@@ -22,7 +16,7 @@
 .eachdiv {
     padding: 1rem 2rem;
     border-radius: 0.8rem;
-    box-shadow: 0px 0px 15px #35343491;
+    box-shadow: 0px 0px 20px #282727cf;
     color: white;
 }
 
@@ -30,9 +24,7 @@
     background: #733FC8;
     grid-column: 1/3;
     grid-row: 1/2;
-    background-image: url(https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position-x: 25rem;
+  
 }
 
 .box2 {
@@ -68,10 +60,6 @@
     grid-row: 3/4;
 }
 
-
-
-
-
 .review h4 {
     font-size: 1.4rem;
     color: #F3DEFF;
@@ -96,17 +84,9 @@
     color: #0e0e0e;
 }
 
-@media only screen and (max-width: 1000px) {
-    .innerdiv {
-        transform: scale(0.7);
-    }
-}
+
 
 @media only screen and (max-width: 800px) {
-    .div1 {
-        background-position-x: 10rem;
-    }
-
     .grid {
         display: flex;
         flex-direction: column;
@@ -116,12 +96,3 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .div1 {
-        background-position-x: 10rem;
-    }
-
-
-
-
-}

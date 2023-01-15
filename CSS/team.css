@@ -1,32 +1,15 @@
 .team-content {
     margin: 1rem 0;
-    text-align: center;
 }
 
-.ueberschrift1 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-}
-
-.ueberschrift1 span {
-    color: var(--color-primary);
-}
-
-.sub-text {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto 1rem;
-    color: var(--color-font-secondary);
-}
 
 .single-service {
-    background: rgba(216, 112, 147, 0);/*du muss hier ein variable diffinieren*/
+    background: rgba(27, 2, 37, 0);
+    /*du muss hier ein variable diffinieren*/
     flex-wrap: nowrap;
     height: 100%;
     border-radius: 0.8rem;
     padding: 1rem;
-    transition: all .5s ease;
 }
 
 .img-area {
@@ -42,33 +25,3 @@
     object-fit: contain;
 }
 
-.single-service h2 {
-    font-size: 25px;
-    color: var(--color-font-primary);
-}
-
-.single-service h4 {
-    font-size: 16px;
-    color: var(--color-primary);
-
-}
-
-.socials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 0.3rem;
-}
-
-.socials i {
-
-    color: var(--color-font-secondary);
-    margin: 0 0.7rem;
-    transition: all 1 ease;
-}
-
-.socials i:hover {
-    color: #c011a0;
-    scale: 1.2;
-
-}

@@ -6,12 +6,12 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
     /*font-size */
-    --size-font-special: 50px;
-    --size-font-title: 40px;
-    --size-font-ueberschrift1: 35px;
-    --size-font-ueberschrift2: 25px;
-    --size-font-list: 20px;
-    --size-font-Standart: 16px;
+    --size-font-special: 2rem;
+    --size-font-title: 2.5rem;
+    --size-font-ueberschrift1: 3rem;
+    --size-font-ueberschrift2: 1.5rem;
+    --size-font-list: 1.25rem;
+    --size-font-Standart: 1rem;
 
     /*font-weight:*/
     --font-weight-primary: 700;
