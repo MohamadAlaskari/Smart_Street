@@ -10,8 +10,8 @@
 }
 
 .single-service {
-    background: #4b1280;
-    /*du muss hier ein variable diffinieren diese farbe ist für dark mood*/
+    background: #33353d;
+    /*du muss hier ein variable diffinieren diese farbe ist für dark mood #4b1280 #33353d*/
     flex-wrap: nowrap;
     height: 100%;
     border-radius: 0.8rem;

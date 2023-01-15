@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
+
+
 .bg-main {
     background-color: #212529;
 }
@@ -58,15 +60,7 @@ plakt-main {
     }
 }
 
-.img-plakat.transition {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60vw;
-    height: 90vh;
-    z-index: 2;
-}
+
 
 /* audio*/
 .audio-content {
@@ -157,7 +151,59 @@ plakt-main {
 
 /***************************************/
 
+/*Square*/
 
+.home-img-1 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-image: url(../img/Group.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 40vh;
+    right: 90vw;
+
+    animation: transitionn 2s linear infinite;
+}
+
+.home-img-2 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-image: url(../img/Group.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 110vh;
+    right: 5vw;
+    animation: transitionn 2s linear infinite;
+}
+
+.home-img-3 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-image: url(../img/Group.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 200vh;
+    right: 90vw;
+    animation: transitionn 2s linear infinite;
+}
+
+.home-img-4 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-image: url(../img/Group.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 280vh;
+    right: 5vw;
+    animation: transitionn 2s linear infinite;
+}
+
+
+/***************************************/
 
 .btn {
     position: relative;
@@ -331,12 +377,7 @@ plakt-main {
 /* Kontakt */
 
 
-.contact-info {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
 
 .contact-info h2 {
     margin-top: 0;
@@ -351,11 +392,15 @@ plakt-main {
     color: white;
 }
 
-.contact-info i {
-    margin-right: 8px;
-    font-size: 24px;
-    color: white;
+
+
+.contact-info .box {
+    margin: 30px 0 0 0;
 }
+
+
+
+
 
 
 /*Quellen*/
@@ -389,6 +434,15 @@ plakt-main {
     }
 }
 
+/*omar*/
+.main .quellen {
+    color: var(--color-font-primary);
+
+}
+
+.main .contact-info h3 {
+    color: var(--color-secondary);
+}
 
 
 .quellen ul {
