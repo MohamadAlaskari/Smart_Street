@@ -9,15 +9,15 @@ footer {
 
 
 .single-box ul li a {
-    color: #fff;
-    line-height: 2.5;
-    font-weight: 100;
+    color: var(--color-font-primary);
+    line-height: var(--line-height-link);
+    font-weight: var(--font--weight-link-footer);
 }
 
 .single-box h3 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
+    color: var(--color-font-primary);
+    font-size: var(--size-font-headline-footer);
+    font-weight: var(--font-weight-first-headline);
 }
 
 @media (max-width: 767px) {

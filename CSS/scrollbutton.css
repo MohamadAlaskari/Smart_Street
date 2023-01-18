@@ -1,5 +1,5 @@
 #scrollbtn {
-    background-color: rgb(92, 28, 137);
+    background-color: var(--color-bg-above) ;
     width: 45px;
     height: 45px;
     text-align: center;
@@ -11,7 +11,7 @@
     opacity .5s, visibility .5s;
    
     visibility: hidden;
-    z-index: 9999;
+    z-index: 999;
 }
 
 #scrollbtn::after {
@@ -19,16 +19,16 @@
     font-family: FontAwesome;
     font-size: 1.5em;
     line-height: 45px;
-    color: #fff;
+    color: var(--color-font-primary);
 }
 
 #scrollbtn:hover {
     cursor: pointer;
-    background-color: var(--color-primary);
+    background-color: var( --color-special);
 }
 
 #scrollbtn:active {
-    background-color: var(--color-secondary);
+    background-color: var( --color-special);
 }
 
 #scrollbtn.show {

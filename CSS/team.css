@@ -10,7 +10,7 @@
 }
 
 .single-service {
-    background: #4b1280;
+    background: var(--color-6);
 
     /*du muss hier ein variable diffinieren diese farbe ist für dark mood #4b1280 #33353d*/
     flex-wrap: nowrap;
@@ -20,11 +20,11 @@
 }
 
 .single-service.dark {
-    background: #33353d;
+    background: var(--color-5);
 }
 
 .single-service.purple {
-    background: #4b1280;
+    background: var(--color-6);
 }
 
 .img-area {

@@ -88,27 +88,24 @@
 
 .btn-smart {
 	color: var(--color-font-primary);
-	border-color: var(--color-secondary);
+	border-color: var(--color-special);
 	border-radius: 5px;
 }
 
 .btn-smart-secondary {
 	color: var(--color-font-secondary);
-
 }
 
 .btn-smart-primary {
-	background-color: var(--color-primary);
+	background-color: var(--color-special);
 	margin-right: 10px;
 }
 
 .btn-smart-primary:hover,
 .btn-smart-secondary:hover {
 	color: var(--color-font-primary);
+	background-color: var(--color-special);
 	transition: all 0.4s ease-in-out;
-	background-color: var(--color-primary);
-
-
 }
 
 

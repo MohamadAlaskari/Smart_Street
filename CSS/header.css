@@ -7,9 +7,9 @@
 
 /*logo formarieren*/
 .logo {
-    color: var(--color-secondary);
-    font-size: 35px;
-    font-weight: 700;
+    color: var(--color-special);
+    font-size: var(--size-font-nav-logo);
+    font-weight: var(--font-weight-first-headline);
     padding: 8.5px 12px;
     float: left;
     display: block;
@@ -17,7 +17,7 @@
 }
 
 .logo:hover {
-    color: var(--color-secondary);
+    color: var(--color-special);
 }
 
 
@@ -44,7 +44,7 @@ nav {
 
 .header .nav-menu .menu a {
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: var(--size-font-navbarlinks);
     display: block;
     color: var(--color-font-secondary);
 }
@@ -60,12 +60,12 @@ nav {
 }
 
 .header .nav-menu .menu a:hover {
-    background: var(--color-secondary);
+    background: var(--color-special);
     color: var(--color-font-primary);
 }
 
 .header .nav-menu .menu a:active {
-    background-color: var(--color-secondary);
+    background-color: var(--color-special);
     color: var(--color-font-primary);
 }
 
@@ -85,7 +85,7 @@ nav {
     display: block;
     height: 2px;
     width: 30px;
-    background: var(--color-secondary);
+    background: var(--color-special);
 }
 
 /*nav icon erstellen >>burger line übere*/
@@ -95,7 +95,7 @@ nav {
     display: block;
     height: 100%;
     width: 100%;
-    background: var(--color-secondary);
+    background: var(--color-special);
     top: 7px;
     transition: all .3s ease-out;
 }
@@ -107,7 +107,7 @@ nav {
     display: block;
     height: 100%;
     width: 100%;
-    background: var(--color-secondary);
+    background: var(--color-special);
     top: -7px;
     transition: all .3s ease-out;
 }

@@ -3,15 +3,9 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-
-
-
-
     position: absolute;
     bottom: 3vh;
     right: 10vw;
-    transform: translate(-50%, -50%);
-
 }
 
 .gear-container {
