@@ -1,6 +1,10 @@
 var player = document.getElementById("player");
 let progress = document.getElementById("progress");
 let playbtn = document.getElementById("playbtn");
+ //square
+ const square_plakat = document.getElementById('square-1-plakat');
+ const square_2_plakat = document.getElementById('square-2-plakat');
+ 
 
 var playpause = function () {
   if (player.paused) {
@@ -70,3 +74,13 @@ imgPlakat.addEventListener('click', function() {
   this.classList.toggle('transition');
 });
 
+
+function bg_square(){     
+  window.onscroll= function(){
+    //omar
+    this.scrollY > 200 && this.scrollY < 700? square_plakat.style.cssText="transition: all 1s ease-out; opacity: 0.5;opacity: 1; ":square_plakat.style.cssText="transform: rotate(20deg) ;transition: all 1s ease-out; opacity: 0.5;opacity: 0";    
+    this.scrollY > 200 && this.scrollY < 700? square_2_plakat.style.cssText="transition: all 1s ease-out; opacity: 0.5;opacity: 1; ":square_2_plakat.style.cssText="transform: rotate(20deg) ;transition: all 1s ease-out; opacity: 0.5;opacity: 0";
+    //ende
+  }
+}
+bg_square();

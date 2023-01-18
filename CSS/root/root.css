@@ -6,12 +6,43 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
     /*font-size */
-    --size-font-special: 2rem;
-    --size-font-title: 2.5rem;
-    --size-font-ueberschrift1: 3rem;
-    --size-font-ueberschrift2: 1.5rem;
-    --size-font-list: 1.25rem;
-    --size-font-Standart: 1rem;
+    --size-font-headline: 35px;
+    --size-font-nav-logo: var(--size-font-headline);
+    --size-font-title: 40px;
+    --size-font-home-title: var(--size-font-title);
+    --size-font-footer-title: var(--size-font-title);
+    --size-font-headline1: 48px;
+    --size-font-section-headline: var(--size-font-headline1);
+    --size-font-headline2: 28px;
+    --size-font-section-untertitle: var(--size-font-headline2);
+    --size-font-headline3: 25px;
+    --size-font-team-name: var(--size-font-headline3);
+    --size-font-headline4: 22.4px;
+    --size-font-headline-pros: var(--size-font-headline4);
+    --size-font-headline5: 20px;
+    --size-font-headline-footer: var(--size-font-headline5);
+    --size-font-navbarlinks: var(--size-font-headline5);
+
+
+    --size-font-standard: 16px;
+    --size-font-subtext: var(--size-font-standard);
+    --size-font-links: var(--size-font-standard);
+    --size-font-btn: var(--size-font-standard);
+    --size-font-pros: var(--size-font-standard);
+    --size-font-team-name-subtitle: var(--size-font-standard);
+
+    --size-font-sidetext: 0.9rem;
+
+
+
+
+
+
+
+
+
+
+  
 
     /*font-weight:*/
     --font-weight-primary: 700;
@@ -24,19 +55,25 @@
 
     /*basic color schrift*/
     --color-special: hsl(319, 69%, 55%);
-    --color-special-1: rgb(208, 22, 149);
-
     --color-font-primary: #fff;
     --color-font-secondary: #ccccccdb;
 
     /*bg-color */
+    --color-primary-dark: #212529;
+
     --color-1: #733FC8;
     --color-2: #49556B;
     --color-3: #fff;
     --color-4: #542158;
+    --color-6: #4b1280;
+    --color-5: #33353d;
+
+
 
     /*bg-gradient*/
-
+    --bg-gardient-animation: linear-gradient(135deg, hsl(270, 88%, 10%),
+            hsl(270, 87%, 15%), hsl(270, 87%, 20%),
+            hsl(270, 95%, 32%)), hsl(290, 87%, 25%);
 }
 
 

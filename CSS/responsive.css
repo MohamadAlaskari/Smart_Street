@@ -94,9 +94,7 @@ Damit wir den code sauber lassen und unerwartete Fehlern vermeiden
 }
 
 /*Style großer als 768*/
-@media only screen and (min-width:768px) {
-  
-}
+@media only screen and (min-width:768px) {}
 
 @media only screen and (min-width:576px) {
 
@@ -124,7 +122,9 @@ Damit wir den code sauber lassen und unerwartete Fehlern vermeiden
 @media only screen and (max-width:576px) {
 
     /*Start Mohamad.Alaskari*/
-
+    #home {
+        padding: 0 4vw;
+    }
 
     .logo {
         padding-left: 0;

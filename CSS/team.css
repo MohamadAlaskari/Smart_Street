@@ -10,12 +10,21 @@
 }
 
 .single-service {
-    background: #33353d;
+    background: #4b1280;
+
     /*du muss hier ein variable diffinieren diese farbe ist für dark mood #4b1280 #33353d*/
     flex-wrap: nowrap;
     height: 100%;
     border-radius: 0.8rem;
     padding: 1rem;
+}
+
+.single-service.dark {
+    background: #33353d;
+}
+
+.single-service.purple {
+    background: #4b1280;
 }
 
 .img-area {
@@ -24,6 +33,7 @@
     overflow: hidden;
     display: inline-block;
     border-radius: 50%;
+    margin-bottom: 0.5rem;
 }
 
 .img-area img {

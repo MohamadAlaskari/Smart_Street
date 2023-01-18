@@ -86,7 +86,7 @@
     </div>
     -->
     <!--Top scroll button-->
-    <a id="scrollbtn" class="bg-primary"></a>
+    <a id="scrollbtn" class="bg-secondary"></a>
 
     <!--left header-->
     <header id="left-side ">
@@ -101,7 +101,6 @@
         </div>
     </header>
     <!--right header-->
-
     <header id="right-side">
         <div class="header-right">
             <div class="header-row">
@@ -114,14 +113,22 @@
         </div>
     </header>
 
-    <div class="flex-col-center bg-dark">
+    <!--Einstellungen box -->
+    <div id="einstellungen" class="einstellungen">
+        <div id="colorcontainer" class="color-container ">
+            <div id="darktheme" class="color color-box1 "></div>
+            <div id="purbeltheme" class="color color-box2"></div>
+        </div>
+        <div class="gear-container"><i id="gear" class="fa fa-gear"></i></div>
+    </div>
+    <div id="mainseite" class="flex-col-center bg-animation ">
         <!-- home section  -->
         <div class="container wraper">
             <section id="home" class="main">
-                <div id="home-img" class="home-img"></div>
-                <div class="home-img4"></div>
-                <div class="home-img2"></div>
-                <div class="home-img3"></div>
+                <div id="square-1" class="square"></div>
+                <div class="home-img-road"></div>
+                <div class=" home-img-spiral"></div>
+                <div class="home-img-spiral-left"></div>
 
                 <header class="container header">
                     <a class="logo fade-in" href="index.html"> Smart Street</a>
@@ -135,12 +142,13 @@
                                 <a href="#home" class="active">Home</a>
                             </li>
                             <li class="nav-item"><a href="#about">About</a></li>
+                            <li class="nav-item"><a href="#vorteile">Vorteile</a></li>
                             <li class="nav-item"><a href="#team">Team</a></li>
-                            <li class="nav-item"><a href="#services">Services</a></li>
-                            <li class="nav-item"><a href="#contact">Contact</a></li>
-                            <!--    <input type="checkbox" id="switch" />
+                            <li class="nav-item"><a href="#contact">Plakat</a></li>
+                            <!--
+                            <input type="checkbox" id="switch" />
                             <label for="switch">Toggle</label>
-                            -->
+-->
                         </ul>
                     </nav>
                 </header>
@@ -155,7 +163,7 @@
                                     der modernen Stadt: Verkehrsstaus, Unfälle, schlechte
                                     Luftqualität und mehr!
                                 </p>
-                                <div class="btns-group">
+                                <div class="btns-group ">
                                     <a class="btn btn-smart btn-smart-primary" href="#about" role="button">More
                                         details</a>
                                     <a class="btn btn-smart btn-smart-secondary" href="plakat.html"
@@ -168,7 +176,6 @@
                 </section>
             </section>
         </div>
-
         <!-- About section  -->
         <div class="container wraper">
             <section id="about" class="main">
@@ -205,7 +212,7 @@
         </div>
         <!-- Vorteile section  -->
         <div class="container wraper">
-            <section id="Vorteile" class="main">
+            <section id="vorteile" class="main">
                 <div class="container">
                     <h1 class="ueberschrift1"><span class="special">Warum</span> Smart Street!?</h1>
                     <p class="sub-text sub-text-center">
@@ -323,13 +330,13 @@
                     </p>
                     <div class="grid-team">
                         <!--Omar box-->
-                        <div class="single-service flex-col-center ">
+                        <div id="teambox1" class="single-service flex-col-center ">
                             <div class="img-area">
                                 <img alt="Profilebild-Omar" src="img/Profilebild-Omar.png" />
                             </div>
                             <h2>Omar Ziyada</h2>
                             <h6 class="special ">Webdevelper</h6>
-                            <div class="socials">
+                            <div class="socials flex-row-center">
                                 <a href="https://www.linkedin.com/in/omar-ziyada-a66b36221/">
                                     <i class="fa fa-linkedin"></i>
                                 </a>
@@ -344,7 +351,7 @@
                             </div>
                         </div>
                         <!--Alaskari box-->
-                        <div class="single-service flex-col-center">
+                        <div id="teambox2" class="single-service flex-col-center">
                             <div class="img-area">
                                 <img alt="Profilebild-Alaskari" src="img/Profilebild-Alaskari.jpg" />
                             </div>
@@ -361,7 +368,7 @@
                             </div>
                         </div>
                         <!--Qusai box-->
-                        <div class="single-service flex-col-center">
+                        <div id="teambox3" class="single-service flex-col-center">
                             <div class="img-area">
                                 <img alt="Profilebild-Qusai" src="img/Profilebild-Qusai.jpg" />
                             </div>
@@ -450,7 +457,7 @@
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single-box">
                                         <h3>Abonieren Sie Uns</h3>
-                                        <div class="socials">
+                                        <div class="socials ">
                                             <a href="https://www.linkedin.com/in/mohamad-alaskari-17238a123/"
                                                 class="link-icon" target="_blank">
                                                 <i class="fa fa-linkedin"></i>

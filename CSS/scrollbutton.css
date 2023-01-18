@@ -7,7 +7,7 @@
     position: fixed;
     bottom: 4.5vh;
     right: 4.5vw;
-    transition: background-color 1s,
+    transition: background-color 0.5s,
     opacity .5s, visibility .5s;
    
     visibility: hidden;

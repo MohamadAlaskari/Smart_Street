@@ -78,7 +78,7 @@ plakt-main {
 
 
 /* audio*/
-.audio-content {
+.media-content {
     padding: 0 10vw;
 }
 
@@ -167,54 +167,25 @@ plakt-main {
 /***************************************/
 
 /*Square*/
-
-.home-img-1 {
-    position: absolute;
+.square-plakat {
     width: 110px;
     height: 110px;
-    background-image: url(../img/Group.png);
+    background-image: url(../../img/Group1.png);
     background-repeat: no-repeat;
-    z-index: -1;
-    top: 40vh;
-    right: 90vw;
-
+    z-index: 999;
     animation: transitionn 2s linear infinite;
 }
 
-.home-img-2 {
+#square-1-plakat {
     position: absolute;
-    width: 110px;
-    height: 110px;
-    background-image: url(../img/Group.png);
-    background-repeat: no-repeat;
-    z-index: -1;
     top: 110vh;
     right: 5vw;
-    animation: transitionn 2s linear infinite;
 }
 
-.home-img-3 {
+#square-2-plakat {
     position: absolute;
-    width: 110px;
-    height: 110px;
-    background-image: url(../img/Group.png);
-    background-repeat: no-repeat;
-    z-index: -1;
-    top: 200vh;
-    right: 90vw;
-    animation: transitionn 2s linear infinite;
-}
-
-.home-img-4 {
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    background-image: url(../img/Group.png);
-    background-repeat: no-repeat;
-    z-index: -1;
-    top: 280vh;
-    right: 5vw;
-    animation: transitionn 2s linear infinite;
+    top: 170vh;
+    left: 5vw;
 }
 
 

@@ -63,6 +63,7 @@ html {
 a,
 ul {
         /*start Mohamad.Alaskari*/
+
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -70,6 +71,7 @@ ul {
         list-style: none;
         /*Ende Mohamad.Alaskari*/
 }
+
 
 body {
         /*start Mohamad.Alaskari*/
@@ -185,11 +187,18 @@ h2 {
 }
 
 /*socials*/
+.socials {
+        margin-top: 0.5rem;
+}
+
+
+
 
 .socials i {
         font-size: 18px;
         color: var(--color-font-secondary);
         margin: 0 0.7rem;
+
         transition: all 0.1s ease;
 }
 

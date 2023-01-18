@@ -1,19 +1,31 @@
 /*Mohamad Alaskari File*/
-.home-img {
+
+.square {
 	width: 110px;
 	height: 110px;
 	background-image: url(../img/Group.png);
 	background-repeat: no-repeat;
 	z-index: 2;
+	animation: transitionn 2s linear infinite;
+}
 
+#square-1 {
 	position: absolute;
 	top: 110vh;
 	right: 5vw;
-	animation: transitionn 2s linear infinite;
-
 }
 
-.home-img4 {
+#square-2 {
+	position: absolute;
+	top: 170vh;
+	left: 5vw;
+}
+
+
+
+
+
+.home-img-road {
 	opacity: 0.5;
 	width: 30vw;
 	height: 200px;
@@ -31,7 +43,7 @@
 
 }
 
-.home-img2 {
+.home-img-spiral {
 	opacity: 0.5;
 	width: 160px;
 	height: 160px;
@@ -45,7 +57,7 @@
 	animation: transitionn 2s linear infinite;
 }
 
-.home-img3 {
+.home-img-spiral-left {
 	opacity: 0.5;
 	width: 160px;
 	height: 160px;
@@ -66,10 +78,11 @@
 	overflow: hidden;
 
 }
-.btns-group{
+
+.btns-group {
 
 	position: relative;
-		z-index: 999;
+	z-index: 999;
 }
 
 
@@ -85,15 +98,17 @@
 }
 
 .btn-smart-primary {
-	background-color: var(--color-secondary);
+	background-color: var(--color-primary);
 	margin-right: 10px;
 }
 
 .btn-smart-primary:hover,
 .btn-smart-secondary:hover {
+	color: var(--color-font-primary);
 	transition: all 0.4s ease-in-out;
 	background-color: var(--color-primary);
-	color: var(--color-font-primary);
+
+
 }
 
 
