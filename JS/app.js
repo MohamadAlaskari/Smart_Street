@@ -9,6 +9,8 @@
 
  
  const  color_container = document.getElementById('colorcontainer');
+ const  playercontainer = document.getElementById('playercontainer');
+
 
 
 
@@ -20,6 +22,7 @@
  const teambox1 = document.getElementById('teambox1');
  const teambox2 = document.getElementById('teambox2');
  const teambox3 = document.getElementById('teambox3');
+ 
 
 
 
@@ -43,13 +46,15 @@ function set_darktheme(){
     mainseite.classList.remove('bg-animation');
     //teamadd
     teambox1.classList.add('dark');
+    teambox1.classList.remove('purple');
     teambox2.classList.add('dark');
     teambox3.classList.add('dark');
+
     //teamremove
 
-    teambox1.classList.remove('purple');
     teambox2.classList.remove('purple');
     teambox3.classList.remove('purple');
+
     color_container.classList.remove('active-color-container');
 
 
@@ -63,9 +68,11 @@ function set_purbel_theme(){
     teambox1.classList.add('purple');
     teambox2.classList.add('purple');
     teambox3.classList.add('purple');
+
     teambox1.classList.remove('dark');
     teambox2.classList.remove('dark');
     teambox3.classList.remove('dark');
+
     color_container.classList.remove('active-color-container');
 
 
@@ -122,7 +129,6 @@ function app() {
         set_darktheme();
         set_purbel_theme();
         show_einstellungen();
-        //active_nav_link_click();
         
 
 }

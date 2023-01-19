@@ -26,8 +26,18 @@
     <title>Smart Street</title>
 </head>
 
-<body>
+<body id="mainseite" class="bg-animation">
 
+    <!--Top scroll button-->
+    <a id="scrollbtn"></a>
+    <!--einstellungen-->
+    <div id="einstellungen" class="einstellungen">
+        <div class="gear-container"><i id="gear" class="fa fa-gear"></i></div>
+        <div id="colorcontainer" class="color-container ">
+            <div id="darktheme" class="color color-box1 "></div>
+            <div id="purbeltheme" class="color color-box2"></div>
+        </div>
+    </div>
 
     <!--side Text left-->
     <header id="left-side ">
@@ -73,12 +83,12 @@
                     <nav class="nav-menu">
                         <ul class="menu glass" id="menu">
                             <li class="nav-item">
-                                <a href="#home" class="active">Home</a>
+                                <a href="index.html" class="active">Home</a>
                             </li>
-                            <li class="nav-item"><a href="#about">About</a></li>
-                            <li class="nav-item"><a href="#team">Team</a></li>
-                            <li class="nav-item"><a href="#services">Services</a></li>
-                            <li class="nav-item"><a href="#contact">Contact</a></li>
+                            <li class="nav-item"><a href="#media">Media</a></li>
+
+                            <li class="nav-item"><a href="#project-quellen">Project Quellen</a></li>
+                            <li class="nav-item"><a href="#kontakt">Kontakt</a></li>
 
 
                         </ul>
@@ -91,7 +101,7 @@
                             <div id="plakat_con" class="row media ">
 
                                 <div class=" img-box">
-                                    <img src="img/Plakat3.jpg" class="img-plakat" alt="Plakat" />
+                                    <img src="img/plakat_Smart_Street.jpg" class="img-plakat" alt="Plakat" />
 
                                 </div>
 
@@ -101,8 +111,8 @@
 
                                 <!--audio-->
                                 <div class="media-content col-10">
-                                    <audio id="player" src="audio/Radiospot.mp3"></audio>
-                                    <div class="player">
+                                    <audio id="player" src="audio/radiospot_Smart_Street.mp3"></audio>
+                                    <div id="teambox1" class="player">
                                         <div class="control">
                                             <i class="fas fa-play" id="playbtn"></i>
                                         </div>
@@ -122,7 +132,7 @@
                                 <div class=" media-content col-10">
                                     <div class="">
 
-                                        <a href="img/Plakat3.jpg" class="btn download-plakat mt-3" download>
+                                        <a href="img/plakat_Smart_Street.jpg" class="btn download-plakat mt-3" download>
                                             <div class="completed">
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 <span>completed</span>
@@ -141,7 +151,8 @@
                                     <!--audio btn-->
 
                                     <div class=" ">
-                                        <a href="audio/Radiospot.mp3" class="btn download-audio mt-3" download>
+                                        <a href="audio/radiospot_Smart_Street.mp3" class="btn download-audio mt-3"
+                                            download>
                                             <div class="completed">
                                                 <i class="fa-solid fa-circle-check"></i>
                                                 <span>completed</span>
@@ -168,7 +179,7 @@
 
         <!-- Quellen section  -->
         <div class="container wraper">
-            <section id="quelle" class="main ">
+            <section id="project-quellen" class="main ">
                 <div class="container quellen-content ">
 
                     <h1 class="ueberschrift1">Projekt Quellen</h1>
@@ -182,10 +193,7 @@
                         <div class="col-md-4 col-sm-12">
                             <h3 class="quellen-subheadline">Webseite Quellen</h3>
                             <div class="flex-col-center">
-                                <div class="box">
-                                    <a class="quellen-links" href="https://www.youtube.com/@OnlineTutorialsYT"
-                                        target="_blank">OnlineTutorialsYT</a>
-                                </div>
+
                                 <div class="box">
                                     <a class="quellen-links" href="https://fontawesome.com/" target="_blank"
                                         id="fontawesome">Fontawesome</a>
@@ -252,9 +260,13 @@
         <!-- Kontakt section  -->
 
         <div class="container wraper">
-            <section id="quelle" class=" main">
-                <div class="container   ">
-                    <h1 class="ueberschrift1">Kontaktieren Sie uns unter:</h1>
+            <section id="kontakt" class=" main">
+                <div class="container">
+                    <h1 class="ueberschrift1">Kontakt</h1>
+                    <p class="sub-text sub-text-center ">
+                        Machen Sie den ersten Schritt zu intelligenteren Straßen und nehmen Sie jetzt Kontakt mit uns
+                        auf
+                    </p>
                     <div class=" contact-info ">
                         <div class="split-box-contact">
                             <p class=" icon-contact"><i class="fas fa-home "></i></p>
@@ -302,14 +314,14 @@
                                         <address>
 
                                             <p>
-                                                <i class="fa fa-map-marker py-3"></i> buntentorsteinweg 152, 28201
-                                                Bremen <br>
+                                                <i class="fa fa-map-marker py-3"></i> Flughafenallee 10, 28199 Bremen
+                                                <br>
                                                 <i class="fa fa-envelope pb-3"></i>
                                                 <a href="mailto:m_alaskari96@hotmail.com"
-                                                    class="text-info">m_alaskari96@hotmail.com</a><br />
+                                                    class="text-info">info@smartstreet.com</a><br />
                                                 <i class="fa fa-phone"></i>
 
-                                                <a href="tel:+3454" class="text-info">+49 176 848 140 22</a>
+                                                <a href="tel:+3454" class="text-info">0421 000000</a>
                                             </p>
                                         </address>
                                     </div>
@@ -384,6 +396,8 @@
 
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script src="JS/player.js"></script>
+    <script src="JS/app.js"></script>
+
 </body>
 
 

@@ -1,3 +1,5 @@
+
+
 var player = document.getElementById("player");
 let progress = document.getElementById("progress");
 let playbtn = document.getElementById("playbtn");
@@ -84,3 +86,4 @@ function bg_square(){
   }
 }
 bg_square();
+
