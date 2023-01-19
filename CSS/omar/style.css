@@ -133,7 +133,7 @@ plakt-main {
 
 .bar {
     --space: -3px;
-    background-color: var( --color-font-secondary);
+    background-color: var(--color-font-secondary);
     overflow: hidden;
     position: absolute;
     left: var(--space);
@@ -363,16 +363,16 @@ plakt-main {
 
 
 
-.contact-subheadline{
+.contact-subheadline {
     color: var(--color-font-primary);
-        font-size: var(--size-font-contact);
+    font-size: var(--size-font-contact);
 }
 
 
 .contact-info p {
     margin: 0;
     font-size: var(--size-font-contact-details);
-    
+
     color: var(--color-font-primary);
 }
 
@@ -391,8 +391,8 @@ plakt-main {
 
 /*omar*/
 .quellen-subheadline {
-        color: var(--color-font-primary);
-        font-size: var(--size-font-quellen-subheadline);
+    color: var(--color-font-primary);
+    font-size: var(--size-font-quellen-subheadline);
 
 }
 
@@ -401,9 +401,10 @@ plakt-main {
 
 
 
-.quellen-links{
+.quellen-links {
     font-size: var(--size-font-quellen-links);
 }
+
 .quellen .col-md-4,
 .col-sm-12 {
     text-align: center;
@@ -450,6 +451,17 @@ plakt-main {
 
 
 .quellen .date {
-    color: var( --color-font-secondary);
+    color: var(--color-font-secondary);
     font-size: var(--size-font-quellen-date);
+}
+
+@media only screen and (max-width:576px) {
+
+    .media-content {
+        padding: 0;
+    }
+
+    .info {
+        font-size: 16px;
+    }
 }

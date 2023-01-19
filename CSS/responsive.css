@@ -1,7 +1,3 @@
-
-
-
-
 @media only screen and (min-width:992px) {
 
     /*Start Mohamad.Alaskari*/
@@ -109,6 +105,11 @@
 }
 
 @media only screen and (max-width:576px) {
+    .sub-text-center {
+        width: 100%;
+
+    }
+
 
     /*Start Mohamad.Alaskari*/
     #home {

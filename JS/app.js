@@ -77,23 +77,7 @@ function set_purbel_theme(){
 
 /*
 
-//click navlink
-function active_nav_link_click(){
-const menu_link = document.querySelectorAll('.menu > .nav-item > a')
-menu_link.forEach((e)=>{
-        e.addEventListener('click', ()=>{
-                console.log("clicked");
-        menu_link.forEach( (i)=> {
-          i.classList.remove('active');
-          i.style.cssText="color:#ccccccdb;";
-      });
-              e.classList.toggle('active');
-              e.style.cssText="color:#fff;"
-             
-        })
-})
-}
-*/
+
 
   
 
@@ -113,7 +97,6 @@ function show_button(){
     this.scrollY > 205 && this.scrollY < 690? square.style.cssText="transition: all 1s ease-out; opacity: 0.7; ":square.style.cssText="transition: all 1s ease-out;opacity: 0";    
     this.scrollY < 1500  ? left_side.style.cssText="transition: all 1s ease-out; opacity: 0.5; ":left_side.style.cssText=" transition: all 1s ease-out;opacity: 0";
     this.scrollY < 1500  ? right_side.style.cssText="transition: all 1s ease-out; opacity: 0.5; ":right_side.style.cssText=" transition: all 1s ease-out;opacity: 0";
-   this.scrollY < 20 ? einstellungen.style.cssText="opacity:1": einstellungen.style.cssText="opacity:0";
   }
 }
 

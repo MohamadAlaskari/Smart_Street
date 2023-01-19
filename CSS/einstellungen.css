@@ -1,10 +1,10 @@
 .einstellungen {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 3vh;
+    bottom: 5vh;
     right: 10vw;
 }
 
@@ -14,7 +14,7 @@
     align-items: center;
     position: absolute;
     right: -50px;
-    height: 46px;
+    height: 45px;
     width: 45px;
     border-radius: 0.8rem;
     border: 1px solid #555;
@@ -24,7 +24,7 @@
 
 .gear-container i {
     font-size: 30px;
-    color: aliceblue;
+    color: var(--color-3);
     animation: rotrate 4s infinite linear;
     cursor: pointer;
 }
@@ -33,19 +33,16 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 0px;
-    visibility: hidden;
-    transition: all 1s ease-out;
+    height: 45px;
+    width: 90px;
+    border: 1px solid #555;
+    border-radius: 0.8rem;
+    transition: all .7s ease-out;
+    opacity: 0;
 }
 
 .color-container.active-color-container {
-    width: 90px;
-    visibility: visible;
-    padding: 5px;
-    border: 1px solid #555;
-    border-radius: 0.8rem;
-
-
+    opacity: 1;
 }
 
 .color {
@@ -56,15 +53,13 @@
 }
 
 .color:nth-child(1) {
-    border: 1px solid rgb(255, 255, 255);
-    background-color: #212529;
-
-
+    border: 1px solid var(--color-3);
+    background-color: var(--color-primary-dark);
 }
 
 .color:nth-child(2) {
-    background-color: blueviolet;
-    border: 1px solid rgb(255, 255, 255);
+    background: var(--bg-gardient-animation);
+    border: 1px solid var(--color-3);
 
 }
 
