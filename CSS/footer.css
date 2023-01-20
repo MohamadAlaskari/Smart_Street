@@ -9,9 +9,15 @@ footer {
 
 
 .single-box ul li a {
-    color: var(--color-font-primary);
+    color: var(--color-font-secondary);
     line-height: var(--line-height-link);
     font-weight: var(--font--weight-link-footer);
+}
+
+.single-box ul li a:hover {
+    color: var(--color-font-primary);
+
+
 }
 
 .single-box h3 {

@@ -102,8 +102,6 @@ function show_button(){
      this.scrollY > 140 ? scrollbtn.classList.add("show") : scrollbtn.classList.remove("show");
        //show scrollbtn an y > 140
     this.scrollY > 205 && this.scrollY < 690? square.style.cssText="transition: all 1s ease-out; opacity: 0.7; ":square.style.cssText="transition: all 1s ease-out;opacity: 0";    
-    this.scrollY < 1500  ? left_side.style.cssText="transition: all 1s ease-out; opacity: 0.5; ":left_side.style.cssText=" transition: all 1s ease-out;opacity: 0";
-    this.scrollY < 1500  ? right_side.style.cssText="transition: all 1s ease-out; opacity: 0.5; ":right_side.style.cssText=" transition: all 1s ease-out;opacity: 0";
   }
 }
 

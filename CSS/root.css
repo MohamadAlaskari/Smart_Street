@@ -136,16 +136,11 @@ body {
         align-items: center;
 }
 
-
-
-
-
 .bg-animation {
         background: var(--bg-gardient-animation);
         background-size: 400% 400%;
         animation: bg-animate 15s ease infinite;
 }
-
 
 
 /*wraper*/
@@ -257,16 +252,19 @@ h2 {
 }
 
 
-/*Text classes*/
-.text-truncate {
-        overflow: hidden;
-        white-space: wrap;
-        text-overflow: ellipsis;
-}
 
 
 
 /*Animation classes */
+.slide-in-x-right {
+        animation: slide-in-x-right 0.8s ease;
+}
+
+.slide-in-x-left {
+        animation: slide-in-x-left 0.8s ease;
+
+}
+
 .slide-in-x {
         animation: slide-in-x 0.8s ease;
 }
@@ -285,6 +283,22 @@ h2 {
 
 
 /*keyframes for Animation*/
+@keyframes slide-in-x-right {
+        from {
+
+
+                transform: translateX(100vw);
+        }
+}
+
+@keyframes slide-in-x-left {
+        from {
+
+
+                transform: translateX(-100vw);
+        }
+}
+
 @keyframes slide-in-x {
         from {
 
@@ -311,6 +325,11 @@ h2 {
         }
 }
 
+@keyframes rotrate {
+        to {
+                transform: rotate(360deg);
+        }
+}
 
 @keyframes bg-animate {
         0% {

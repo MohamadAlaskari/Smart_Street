@@ -1,4 +1,8 @@
 /*Mohamad Alaskari File*/
+.rotrate {
+
+	animation: rotrate 2s linear infinite;
+}
 
 .square {
 	width: 110px;
@@ -6,7 +10,6 @@
 	background-image: url(../img/Group.png);
 	background-repeat: no-repeat;
 	z-index: 2;
-	animation: transitionn 2s linear infinite;
 }
 
 #square-1 {
@@ -39,8 +42,8 @@
 
 
 	transition: all 1s ease;
-	animation: transitionn 10s linear infinite;
 
+	animation: rotrate 10s linear infinite;
 }
 
 .home-img-spiral {
@@ -54,7 +57,6 @@
 	position: absolute;
 	top: 25vh;
 	right: 10.6vw;
-	animation: transitionn 2s linear infinite;
 }
 
 .home-img-spiral-left {
@@ -69,7 +71,6 @@
 	top: 60vh;
 	right: 30vw;
 	transition: all 1s ease;
-	animation: transitionn 2s linear infinite;
 }
 
 /*home Content*/
