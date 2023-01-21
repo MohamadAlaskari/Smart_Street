@@ -3,6 +3,7 @@
     bottom: 3vh;
     right: 95px;
     z-index: 999;
+    transition: all 1s ease;
 
 }
 
@@ -68,4 +69,10 @@
     opacity: 1;
 
     cursor: pointer;
+}
+
+
+
+#einstellungen.hidden {
+    visibility: hidden;
 }
