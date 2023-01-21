@@ -1,0 +1,65 @@
+/*omar*/
+.quellen-subheadline {
+    color: var(--color-font-primary);
+    font-size: var(--size-font-quellen-subheadline);
+
+}
+
+
+
+
+
+
+.quellen-links {
+    font-size: var(--size-font-quellen-links);
+}
+
+.quellen .col-md-4,
+.col-sm-12 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.quellen ul {
+    list-style: none;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.quellen li {
+
+    margin: 8px 0;
+
+}
+
+.quellen i {
+    color: var(--color-3);
+    margin: 0 10px;
+}
+
+.quellen a {
+    color: var(--color-special);
+}
+
+
+
+.quellen .date {
+    color: var(--color-font-secondary);
+    font-size: var(--size-font-quellen-date);
+}

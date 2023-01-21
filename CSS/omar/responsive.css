@@ -1,0 +1,131 @@
+@media only screen and (min-width:1014px) {
+    .img-plakat.transition {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60vw;
+        height: 90vh;
+        z-index: 2;
+    }
+
+    .contact-info {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-evenly;
+
+    }
+
+    .box-contact {
+
+        display: flex;
+        padding: 1rem;
+        height: 150px;
+        width: 200px;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+
+    .contact-info i {
+        padding: 1rem;
+        padding: 1.5rem;
+        font-size: 24px;
+        color: white;
+
+    }
+
+    .split-box-contact {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media only screen and (max-width:1013px) {
+
+    .contact-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box-contact {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+        height: 150px;
+        width: 200px;
+    }
+
+    .contact-info i {
+
+
+        padding: 2.5rem;
+        font-size: 24px;
+        color: white;
+
+    }
+
+    .icon-contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .split-box-contact {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+
+    .media-content {
+        padding: 0;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box-contact {
+
+        display: flex;
+        padding: 1rem;
+        height: 150px;
+        width: 200px;
+
+        flex-direction: column;
+    }
+
+    .contact-info i {
+
+        padding: 1.3rem;
+        font-size: 24px;
+        color: white;
+
+    }
+
+    .split-box-contact {
+
+        display: flex;
+        flex-direction: row;
+    }
+}

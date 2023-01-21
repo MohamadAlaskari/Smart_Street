@@ -105,6 +105,24 @@
 }
 
 @media only screen and (max-width:576px) {
+
+    .wraper:first-child {
+        margin-top: 1vh;
+    }
+
+
+
+    .home-img-road {
+        position: absolute;
+        top: 40vh;
+        right: 20vw;
+    }
+
+    .header-row-title {
+        margin: 1vh 0 0 0;
+    }
+
+
     .sub-text-center {
         width: 90%;
 
@@ -124,6 +142,6 @@
         padding: 3rem 0rem;
     }
 
-    /*Ende Mohamad.Alaskari*/
+
 
 }

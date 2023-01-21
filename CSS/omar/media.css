@@ -1,0 +1,357 @@
+.bg-main {
+    background-color: var(--bg-gardient-animation);
+}
+
+*,
+a,
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+plakt-main {
+    overflow: visible;
+}
+
+.plakat-content {
+    margin-top: 10vh;
+
+}
+
+.img-box {
+
+    height: 371px;
+    width: 525px;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.img-plakat {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    transition: box-shadow 0.3s ease-in, width 1.5s ease, height 1.5s ease, transform 0s ease;
+
+    animation: shadow-pulse 1s infinite;
+    border-radius: 0.8rem;
+
+}
+
+@keyframes shadow-pulse {
+
+    /* Increase the size of the drop shadow on hover */
+    50% {
+        box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8);
+    }
+}
+
+
+
+/* audio*/
+.media-content {
+    padding: 0 10vw;
+}
+
+.player {
+    background: var(--color-4);
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 1rem;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 50px;
+}
+
+.player.dark {
+    background: var(--color-5);
+
+}
+
+.player.purple {
+    background: var(--color-4);
+
+}
+
+
+
+.control,
+#current {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-block: 16px;*/
+    color: var(--color-font-primary);
+
+
+}
+
+#playbtn {
+    font-size: 24px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--color-font-primary);
+    cursor: pointer;
+}
+
+#playbtn:hover {
+    -webkit-text-fill-color: var(--color-font-primary);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--size-font-audio-tiltle);
+    position: relative;
+    color: var(--color-font-primary);
+
+}
+
+#current {
+    text-align: right;
+}
+
+.bar {
+    --space: -3px;
+    background-color: var(--color-3);
+    overflow: hidden;
+    position: absolute;
+    left: var(--space);
+    right: var(--space);
+    top: var(--space);
+    bottom: var(--space);
+    border-radius: 64px;
+    z-index: -1;
+}
+
+#progress {
+    display: blcok;
+    width: var(--progress, 0%);
+    background-color: var(--color-special);
+    transition: all 1s linear;
+    height: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/***************************************/
+
+/*Square*/
+.square-plakat {
+    width: 110px;
+    height: 110px;
+    background-image: url(../../img/Group1.png);
+    background-repeat: no-repeat;
+    z-index: -2;
+    opacity: 0.8;
+    animation: transitionn 2s linear infinite;
+}
+
+#square-1-plakat {
+    position: absolute;
+    top: 110vh;
+    right: 7vw;
+}
+
+#square-2-plakat {
+    position: absolute;
+    top: 170vh;
+    left: 7vw;
+}
+
+
+/***************************************/
+
+.btn {
+    position: relative;
+    width: 200px;
+    height: 42px;
+    background: var(--color-special);
+    color: var(--color-font-primary);
+    font-size: var(--size-font-btn);
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.8s;
+    transition-delay: 0.5s;
+
+    overflow: hidden;
+}
+
+.btn .fas {
+    margin-right: 8px;
+}
+
+.btn .download {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+.btn.active .download {
+    transform: translate(-50%, 60px);
+    animation: bottom_top 0.5s linear forwards;
+    animation-delay: 12s;
+}
+
+.btn .completed {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -60px);
+    white-space: nowrap;
+    color: var(--color-font-vorteil-2);
+}
+
+.btn.active .completed {
+    animation: top_bottom 1.3s linear forwards;
+    animation-delay: 6.5s;
+}
+
+.btn.active {
+    width: 100%;
+    height: 15px;
+    animation: btn_width 4.5s linear forwards;
+    animation-delay: 5s;
+}
+
+.btn.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--color-3);
+    animation: before_active 10s linear forwards;
+    animation-delay: 1.5s;
+}
+
+.btn.active::after {
+    content: '\f00c';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-family: "Font Awesome 5 Free";
+    color: var(--color-font-vorteil-2);
+    transition: 0.3s;
+    animation: check_scale 2s linear forwards;
+    animation-delay: 8.5s;
+}
+
+
+
+
+@keyframes before_active {
+    0% {
+        width: 0%;
+        height: 100%;
+    }
+
+    30%,
+    95% {
+        width: 100%;
+        height: 100%;
+    }
+
+    100% {
+        width: 100%;
+        height: 0%;
+    }
+}
+
+@keyframes btn_width {
+    0% {
+        width: 600px;
+        height: 15px;
+    }
+
+    20%,
+    70% {
+        width: 200px;
+        height: 53px;
+    }
+
+    80%,
+    90% {
+        width: 100px;
+        height: 53px;
+    }
+
+    100% {
+        width: 200px;
+        height: 53px;
+    }
+}
+
+@keyframes top_bottom {
+    0% {
+        transform: translate(-50%, -60px);
+    }
+
+    20%,
+    90% {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        top: 120%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes bottom_top {
+    0% {
+        transform: translate(-50%, 60px);
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes check_scale {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+
+    20%,
+    90% {
+        transform: translate(-50%, -50%) scale(1.3);
+    }
+
+    100% {
+        transform: translate(-50%, 100px) scale(1.3);
+    }
+}

@@ -1,0 +1,18 @@
+.contact-subheadline {
+    color: var(--color-font-primary);
+    font-size: var(--size-font-contact);
+}
+
+
+.contact-info p {
+    margin: 0;
+    font-size: var(--size-font-contact-details);
+
+    color: var(--color-font-primary);
+}
+
+
+
+.contact-info .box {
+    margin: 30px 0 0 0;
+}

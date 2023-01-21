@@ -31,7 +31,7 @@
     font-size: var(--size-font-sidetext);
     color: var(--color-font-secondary);
     text-orientation: mixed;
-    letter-spacing: var( --special-letter-spacing);
+    letter-spacing: var(--special-letter-spacing);
     font-weight: var(--font-weight-side-text);
     text-transform: uppercase;
 }

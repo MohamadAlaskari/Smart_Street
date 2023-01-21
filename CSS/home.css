@@ -1,6 +1,5 @@
 /*Mohamad Alaskari File*/
 .rotrate {
-
 	animation: rotrate 2s linear infinite;
 }
 
@@ -9,20 +8,15 @@
 	height: 110px;
 	background-image: url(../img/Group.png);
 	background-repeat: no-repeat;
-	z-index: 2;
+	z-index: 0;
 }
 
 #square-1 {
 	position: absolute;
 	top: 110vh;
-	right: 5vw;
+	right: 7vw;
 }
 
-#square-2 {
-	position: absolute;
-	top: 170vh;
-	left: 5vw;
-}
 
 
 
@@ -33,16 +27,14 @@
 	width: 30vw;
 	height: 200px;
 	background-image: url(../img/Group.png);
+	
 	transform: rotate(-35deg);
 	z-index: 2;
 	object-fit: fill;
 	position: absolute;
 	top: 40vh;
 	right: 10vw;
-
-
 	transition: all 1s ease;
-
 	animation: rotrate 10s linear infinite;
 }
 
@@ -109,13 +101,3 @@
 	transition: all 0.4s ease-in-out;
 }
 
-
-@keyframes transitionn {
-	0% {
-		transform: rotate(0deg) translateY(0px);
-	}
-
-	100% {
-		transform: rotate(360deg) translateY(0px);
-	}
-}
