@@ -1,12 +1,11 @@
 
-
 var player = document.getElementById("player");
 let progress = document.getElementById("progress");
 let playbtn = document.getElementById("playbtn");
  //square
  const square_plakat = document.getElementById('square-1-plakat');
  const square_2_plakat = document.getElementById('square-2-plakat');
- 
+
 
 var playpause = function () {
   if (player.paused) {
