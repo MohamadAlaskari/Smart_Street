@@ -1,7 +1,6 @@
 //variabels
-const myElements = document.querySelectorAll(".xl");
-const myElements2 = document.querySelectorAll(".y");
-const myElements3 = document.querySelectorAll(".xr");
+//const myElements = document.querySelectorAll(".xl");
+//const myElements2 = document.querySelectorAll(".y");
 
 //variabels für animation
 
@@ -97,7 +96,7 @@ function show_button() {
 
   }
 }
-
+/*
 
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -107,19 +106,8 @@ const observer = new IntersectionObserver(entries => {
         entry.target.classList.add("slide-in-xl");
       }  if (entry.target.classList.contains("y")) {
         entry.target.classList.add("slide-in-y");
-      } if (entry.target.classList.contains("xr")) {
-        entry.target.classList.add("slide-in-xr");
-      }
-      /*
-       if (entry.target.classList.contains("yb")) {
-        entry.target.classList.add("slide-in-y-button");
-      }
-      if (entry.target.classList.contains("xl")) {
-        entry.target.classList.add("slide-in-x-left");
-      }
-      if (entry.target.classList.contains("xr")) {
-        entry.target.classList.add("slide-in-x-right");
-      }*/
+      } 
+
     } else {
       // Element is no longer visible in the viewport
       if (entry.target.classList.contains("xl")) {
@@ -129,16 +117,7 @@ const observer = new IntersectionObserver(entries => {
       }if (entry.target.classList.contains("xr")) {
         entry.target.classList.remove("slide-in-xr");
       } 
-      /*
-       if (entry.target.classList.contains("yb")) {
-        entry.target.classList.remove("slide-in-y-button");
-      }
-       if (entry.target.classList.contains("xl")) {
-        entry.target.classList.remove("slide-in-x-left");
-      }
-      if (entry.target.classList.contains("xr")) {
-        entry.target.classList.remove("slide-in-x-right");
-      }*/
+      
     }
   });
 });
@@ -146,7 +125,7 @@ const observer = new IntersectionObserver(entries => {
 
 myElements.forEach(myElement => observer.observe(myElement));
 myElements2.forEach(myElement => observer.observe(myElement));
-myElements3.forEach(myElement => observer.observe(myElement));
+
 
 
 /*
