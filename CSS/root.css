@@ -282,8 +282,12 @@ h2 {
         animation: slide-in-y-button 0.8s ease;
 }
 
-.slide-in-x {
-        animation: slide-in-x 0.8s ease;
+.slide-in-xl {
+        animation: slide-in-xl 0.8s ease;
+}
+
+.slide-in-xr {
+        animation: slide-in-xr 0.8s ease;
 }
 
 .slide-in-y {
@@ -324,11 +328,19 @@ h2 {
         }
 }
 
-@keyframes slide-in-x {
+@keyframes slide-in-xl {
         from {
 
 
                 transform: translateX(-20px);
+        }
+}
+
+@keyframes slide-in-xr {
+        from {
+
+
+                transform: translateX(20px);
         }
 }
 
